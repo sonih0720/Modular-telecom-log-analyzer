@@ -1,0 +1,13 @@
+# build output
+build/
+analyzer
+*.o
+*.exe
+
+# large or private logs (keep data/sample_logs.txt)
+*.log
+!tests/fixture.log
+data/*
+!data/sample_logs.txt
+report*.txt
+.DS_Store
